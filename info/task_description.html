@@ -1,0 +1,38 @@
+<style>
+    .credit {
+        font-size: .8em;
+        text-align: center;
+    }    
+</style>
+<p>
+    A riddling ancient treatise wrote,     
+    <blockquote>
+        I think a number, unknown to you.
+        
+        If you count by threes, there is a remainder 2.
+        If you count by fives, there is a remainder 3.
+        If you count by sevens, there is remainder 2.
+        
+        Could you tell what my number is ?
+    </blockquote>
+</p>
+<div>
+<img src="421px-Sun_Zi_Suanjing.jpg" style="width: 20%;">
+    <div class="credit">
+    <span>Source: <a href="http://en.wikipedia.org/wiki/Sun_Tzu_(mathematician)">wikipedia</a></span>
+    </div>
+</div>
+<p><strong>Input data: </strong>a list of tuples, whose tuple contains <strong>remainder and its divisor</strong></p>
+<p><strong>Output data: </strong>The output will be a number, <strong>the smallest possible natural number</strong>.</p>
+<div class="for_info_only">
+    <p>
+        <strong>Example:</strong>
+    </p>
+    <pre class="brush: python">
+assert( checkio( [ (2,3), (3,5), (2,7) ] ) == 23 ), "First Test"
+assert( checkio( [ (1,5), (4,7) ] ) == 11 ), "Second Test"
+assert( checkio( [ (1,3), (2,5), (3,7) ] ) == 52 ), "Third Test"
+assert( checkio( [ (1,2), (1,3), (1,5) ] ) == 1 ), "Fourth Test"
+assert( checkio( [ (2,4), (7,9) ] ) == 34 ), "Fifth Test"
+    </pre>
+</div>
