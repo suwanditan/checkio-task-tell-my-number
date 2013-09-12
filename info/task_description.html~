@@ -6,12 +6,12 @@
 </style>
 <p>
     <div style="float: left; margin: 16px;">
-    <img src="static-local/img/421px-Sun_Zi_Suanjing.jpg" style="height: 300px;">
+    <img src="{{ MEDIA }}421px-Sun_Zi_Suanjing.jpg" style="height: 300px;">
         <div class="credit">
         <span>Source: <a href="http://en.wikipedia.org/wiki/Sun_Tzu_(mathematician)">wikipedia</a></span>
         </div>
     </div><br>
-    A riddle found in ancient treatise, written circa 3rd-5th century, as described below:     
+    A riddle found in ancient treatise, written circa 3rd-5th century, as inscribed below: <br>    
     <blockquote style="padding-left: 30%; padding-right: auto; font-style: italic;">
         I think a number, unknown to you.<br><br>
         
